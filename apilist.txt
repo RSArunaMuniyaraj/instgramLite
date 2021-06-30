@@ -1,0 +1,41 @@
+http://127.0.0.1:3000/user/registeration
+
+{
+  "firstName": "lavanya",
+  "lastName": "venkat",
+  "mobileNumber": 765432123,
+  "dob":"12-12-1998",
+  "signupStatus": 1,
+  "password": "Osiz@123",
+  "confirmPassword": "Osiz@123"
+}
+
+http://127.0.0.1:3000/user/login
+
+{"mobileNumber":765432123,"password":"Osiz@123"}
+
+http://127.0.0.1:3000/user/viewMyProfile
+
+Content-Type:application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZWNyZXQiOiI2MGQ5ZmE0MGUyZGE2MzBjYTRjOTQyN2QiLCJpYXQiOjE2MjQ5NDcxMzMsImV4cCI6MTYyNDk1NzkzM30.RQNbay7ATbBGZ-UbEzF1CuHM5x8LNh3yNLJzpQZKxBs
+
+http://127.0.0.1:3000/user/updateProfile
+
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZWNyZXQiOiI2MGQ5ZmE0MGUyZGE2MzBjYTRjOTQyN2QiLCJpYXQiOjE2MjQ5NTk0NTMsImV4cCI6MTYyNDk3MDI1M30.WXjTH5XoN0P03Lr5FnDeD-3tLkYVkf73_ht50fs4al0
+
+firstName:Aruna
+lastName:Muniyaraj
+mobileNumber:9777732230
+dob:10-13-1998
+bio:expect the unexpected
+
+http://127.0.0.1:3000/user/viewUserDetails
+
+http://127.0.0.1:3000/user/myLikes
+Content-Type:application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZWNyZXQiOiI2MGQ5ZmE0MGUyZGE2MzBjYTRjOTQyN2QiLCJpYXQiOjE2MjQ5NzUyNDksImV4cCI6MTYyNDk4NjA0OX0.PtGm314blj5XgEFLYqveW_O2zJtNcVIpfc5DuBzgP2I
+
+git config --global user.name "Aruna"
+git config --global user.email "rsarunamuniyaraj@gmail.com"
+
+ssh-keygen -t rsa -C "rsarunamuniyaraj@gmail.com"
